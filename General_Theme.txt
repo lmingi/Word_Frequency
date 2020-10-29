@@ -1,0 +1,58 @@
+General Theme: 
+
+We had plan to write a program that visualizes changes in the frequency of words over various parameters such as time, gender, or political party. 
+
+
+
+
+Datasets: 
+
+Each row of our datasets has two categorical variables, each with two possible outcomes.
+
+Link to datasets that we plan to visualize: 
+1.	An assortment of books written by both Male and Female authors and published in both the 18th and 19th century from Project Gutenberg. 
+2.	2016 US Presidential Primary Debates from Kaggle to compare words used by gender and political party. 
+3.	Supreme Court of the United States Opinions from Kaggle to compare words used in a concurring or dissenting opinion and by the political party of the President that nominated said justice. 
+
+
+
+
+Row of Books from Gutenberg’s website:
+
+Author Gender (Male/Female)	Date of Publishing  (18th Century/19th Century)
+
+Row of the Supreme Court of the United States Dataset:
+
+Type of Opinion (Concurring/Dissenting)	Party of the President who appointed the Justice
+(Democratic/Republican)	
+
+Row for 2016 Primary Presidential Debates: 
+
+Candidate Gender (Male/Female)	Party of Candidate
+(Democratic/Republican)	
+
+
+
+
+A high-level overview of the algorithm or algorithms:
+
+1. Modifying the data so that it looks like:
+
+Type (Concurring/Dissenting)	Party of the President who appointed the Justice
+(Democratic/Republican)
+    
+2.  Find the frequencies of the most popular words
+3.  Tally the frequencies and words  (exclude common words like “the” “and” “I” “a” “it” to get rid of irrelevant data.)
+4. Plot the tallies with different sizes of circles.
+
+
+
+
+Various Outcomes: 
+
+The reach outcome is to make a procedure that has two parameters - a .csv file and two criterions for comparison. This procedure will work if the .csv file satisfies certain preconditions and it will produce a plot similar to this: 
+  
+The preferred outcome is to produce two to three visualizations for our own datasets - Presidential Debates, SCOTUS opinions, and Novels. 
+
+The satisficing outcome is to produce one visualization for either of the three datasets mentioned above. 
+
